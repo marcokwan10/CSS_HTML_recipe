@@ -275,6 +275,7 @@ Navbar
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	/* background: yellow; */
 }
 
 .nav-logo {
@@ -360,5 +361,6 @@ Navbar
 
 	.contact-link {
 		margin-left: auto;
+		margin-right: 0;
 	}
 }
