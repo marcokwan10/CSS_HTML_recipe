@@ -561,3 +561,43 @@ Recipes
 .error-page h1 {
 	font-size: 9rem;
 }
+
+/*
+=============== 
+About
+===============
+*/
+
+.about-page h2 {
+	text-transform: none;
+}
+
+.about-page {
+	display: grid;
+	gap: 2rem 4rem;
+	padding-bottom: 3rem;
+	border: 2px solid red;
+}
+
+.about-img {
+	border-radius: var(--borderRadius);
+	height: 300px;
+	border: 2px solid blue;
+}
+
+@media screen and (min-width: 992px) {
+	.about-page {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 400px;
+		align-items: center;
+	}
+
+	.about-img {
+		height: 100%;
+	}
+}
+
+.featured-title {
+	text-align: center;
+	font-weight: bold;
+}
